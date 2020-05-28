@@ -1,0 +1,24 @@
+package com.spring.app;
+
+public class AddressBook {
+    private String phoneNumber;
+    private Address tempAddress;
+    public AddressBook(Address ta){
+        tempAddress=ta;
+    }
+    public void setPhoneNumber(String s){
+        phoneNumber=s;
+    }
+    public String getPhoneNumber()
+    {
+        return phoneNumber;
+    }
+    public void setTempAddress(Address a){
+        tempAddress=a;
+    }
+    public Address getTempAddress()
+    {
+        return tempAddress;
+    }
+
+}
